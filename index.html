@@ -12,18 +12,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;700;800&display=swap" rel="stylesheet">
-
-    <style>
-        .manrope-font{
-            font-family: 'Manrope', sans-serif;
-        }
-        .common-head{
-            color: #131318;
-            font-size: 36px;
-            font-weight: 800;
-        }
-
-    </style>
+    <link rel="stylesheet" href="style.css">
+   
 
 </head>
 <body class="manrope-font">
@@ -34,21 +24,21 @@
         <!-- Banner section -->
         <section class="container mx-auto px-8 lg:px-24 relative">
             <div class="carousel w-full rounded-lg lg:rounded-2xl ">
-                <div id="slide1" class="carousel-item relative w-full h-[60vh] object-cover">
+                <div id="slide1" class="carousel-item relative w-full h-[65vh] object-cover">
                   <img src="Images/1.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide3" class="btn btn-circle">❮</a> 
                     <a href="#slide2" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide2" class="carousel-item relative w-full h-[60vh] object-cover">
+                <div id="slide2" class="carousel-item relative w-full h-[65vh] object-cover">
                   <img src="Images/2.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide1" class="btn btn-circle">❮</a> 
                     <a href="#slide3" class="btn btn-circle">❯</a>
                   </div>
                 </div> 
-                <div id="slide3" class="carousel-item relative w-full h-[60vh] object-cover">
+                <div id="slide3" class="carousel-item relative w-full h-[65vh] object-cover">
                   <img src="Images/3.png" class="w-full" />
                   <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                     <a href="#slide2" class="btn btn-circle">❮</a> 
@@ -56,7 +46,7 @@
                   </div>
                 </div> 
               </div>
-              <div class="bg-[#131318] rounded-2xl p-7 max-w-full lg:max-w-[43%] flex-col lg:absolute left-[570px] bottom-6">
+              <div class="bg-[#131318] rounded-2xl p-7 max-w-full lg:max-w-[43%] flex-col lg:absolute left-[560px] bottom-7">
                 <h3 class="text-white font-semibold lg:font-extrabold text-xl lg:text-2xl">Meet all the heroes from the field</h3>
                 <p class="text-white opacity-70 mt-2">The Hockey World Cup consists of a qualification stage and a final tournament stage.</p>
               </div>
@@ -65,10 +55,10 @@
     </header>
     <main>
         <!-- Professional Hockeys Club section -->
-        <section class="container mx-auto px-8 lg:px-24 my-14">
+        <section class="container mx-auto px-8 lg:px-24 my-20">
             <div class="flex flex-col justify-center items-center lg:max-w-[50%] mx-auto">
-                <h2 class="common-head">Professional Hockeys Club</h2>
-                <p class="text-center opacity-70">Professional hockey developed in the United States and Canada around the turn of the 20th century.</p>
+                <h2 class="common-head text-center">Professional Hockeys Club</h2>
+                <p class="common-text">Professional hockey developed in the United States and Canada around the turn of the 20th century.</p>
             </div>
             <!-- Rating area -->
             <div class="my-10 lg:flex justify-center items-center gap-4">
@@ -102,10 +92,32 @@
                     
             </div>
 
-
-
         </section>
+         <!-- Program Sections  -->
+         <section class="container mx-auto px-8 lg:px-24 my-20">
+            <div class="flex flex-col justify-center items-center lg:max-w-[50%] mx-auto">
+                <h2 class="common-head text-center">Program Sections</h2>
+                <p class="common-text">We have some events in next couple of month.There are some mega event also... </p>
 
+            </div>
+            <div class="mt-10 grid grid-cols-1 lg:grid-cols-2 gap-6">
+                <div class="img-1 pl-10 pb-10 space-y-5 order-1" >
+                    <h3 class="text-white font-extrabold text-3xl pt-24">Junior Program</h3>
+                    <p class="text-white max-w-80">we have a junior hockey section to build future player. it's forms of hockey to move the ball </p>
+                    <button class="btn text-white font-bold bg-[#FF4240] border-none px-5 py-2">Register Now </button>
+                </div>
+                <div class="img-2 pl-10 pb-10 space-y-5 order-2">
+                    <h3 class="text-white font-extrabold text-3xl pt-24">Teenager Program</h3>
+                    <p class="text-white max-w-80">In our teenager section we hunt future talent and nursing them to grow as a future icon </p>
+                    <button class="btn text-white font-bold bg-[#FF4240] border-none px-5 py-2">Register Now </button></div>
+                <div class="lg:col-span-2 pl-10 pb-10 space-y-5 w-full img-3  order-3">
+                    <h3 class="text-white font-extrabold text-3xl pt-24">Professional Program</h3>
+                    <p class="text-white max-w-80">A hockey stick is a piece of sports equipment used by the players in all the forms of hockey to move the ball </p>
+                    <button class="btn text-white font-bold bg-[#FF4240] border-none px-5 py-2">Register Now </button></div>
+                </div>
+            </div>
+         </section>
+        
     </main>
     <footer>
 
