@@ -23,7 +23,36 @@
 <body class="manrope-font">
     <header>
         <nav>
-        
+            <div class="navbar bg-base-100 lg:px-24">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Pages</a></li>
+                      <li><a>Blog</a></li>
+                      <li><a>Contact</a></li>
+                    </ul>
+                  </div>
+                  <a class="text-xl"><h1 class="font-extrabold text-4xl">Hockey<span class="text-[#FF4240]">’</span>s</h1></a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    <li><a class="text-red-600">Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Pages</a></li>
+                    <li><a>Blog</a></li>
+                    <li><a>Contact</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                    <i class="fa-solid fa-magnifying-glass hidden lg:flex"></i>
+                    <button class="btn ml-2 text-white font-bold bg-[#FF4240] border-none px-5 py-2">Get Ticket </button>
+                </div>
+              </div>
         </nav>
         <!-- Banner section -->
         <section class="container mx-auto px-8 lg:px-24 relative">
@@ -420,12 +449,75 @@
             </div>
 
          </section>
+         <!-- Clients Question section -->
+         <section class="container mx-auto px-8 lg:px-24 my-20">
+            <div class="flex flex-col justify-center items-center lg:max-w-[50%] mx-auto">
+                <h2 class="common-head text-center">Clients Question</h2>
+                <p class="common-text">Our happy clint have some common question regarding our services and featured items. we are trying to answer them </p>
+            </div>   
+            <div>
+                <div class="hero min-h-screen bg-base-50">
+                    <div class="hero-content flex-col lg:flex-row">
+                      <img src="images/11.png" class="max-w-sm rounded-lg shadow-md" />
+                      <!-- accordion -->
+                        <div class=" flex flex-col gap-1">
+                            <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" checked="checked" /> 
+                                <div class="collapse-title text-xl font-bold">
+                                    Our Equipment
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>We have all kinds of hockey stick.all teams world cup kit.halmet boll etc with very reasonable price</p>
+                                </div>
+                              </div>
+                              <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" /> 
+                                <div class="collapse-title text-xl font-bold">
+                                    Hockey Training
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>We have all kinds of hockey stick.all teams world cup kit.halmet boll etc with very reasonable price</p>
+                                </div>
+                              </div>
+                              <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" /> 
+                                <div class="collapse-title text-xl font-bold">
+                                    Private Lessons
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Our privet couch alwaye ready to make you as a good player </p>
+                                </div>
+                              </div>
+                              <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" /> 
+                                <div class="collapse-title text-xl font-bold">
+                                    Ski Touring
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Our privet couch alwaye ready to make you as a good player </p>
+                                </div>
+                              </div>
+                              <div class="collapse collapse-plus bg-base-200">
+                                <input type="radio" name="my-accordion-3" /> 
+                                <div class="collapse-title text-xl font-bold">
+                                    Booking
+                                </div>
+                                <div class="collapse-content"> 
+                                  <p>Our privet couch alwaye ready to make you as a good player </p>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                  </div>
+            </div>
+         </section>
          <!-- Get In Touch section -->
         <section class="container mx-auto px-8 lg:px-24 my-20">
             <div class="flex flex-col justify-center items-center lg:max-w-[50%] mx-auto">
                     <h2 class="common-head text-center">Get In Touch</h2>
                     <p class="common-text">You can buy  update and latest item here.Our all products are world class.Also you can choose featured items </p>
-                <div class="lg:grid grid-cols-1 lg:grid-cols-3 lg:grid-row-6 lg:w-[1110px] gap-3 mt-10">
+                </div>    
+                <div class="lg:grid grid-cols-1 lg:grid-cols-3 lg:grid-row-6  gap-3 mt-10">
                     <!-- address part -->
                     <div class="row-span-4 space-y-3 border rounded-xl p-2 lg:p-10 order-1">
                          <div class="bg-amber-50 rounded-lg shadow-md p-7">
